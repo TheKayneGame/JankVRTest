@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JankVRTest", "JankVRTest\JankVRTest.csproj", "{40794218-EC4C-45FB-9870-737F6E611FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeletonBasics-WPF", "..\SkeletonBasics-WPF\SkeletonBasics-WPF.csproj", "{8121846D-923E-4BB0-8647-30DA753D156E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorBasics-WPF", "..\ColorBasics-WPF\ColorBasics-WPF.csproj", "{49EA2D7C-A2D2-42F0-A447-966AFFD19E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRE.Vridge.API.DesktopTester", "..\vridge-api-master\src\examples\VRE.Vridge.API.DesktopClient\VRE.Vridge.API.DesktopTester.csproj", "{97ECBE1C-03EF-461D-A389-312C729A7EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JankVRTestv2", "JankVRTestv2\JankVRTestv2.csproj", "{32C8E765-A5DE-435A-98C5-456442C84C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40794218-EC4C-45FB-9870-737F6E611FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40794218-EC4C-45FB-9870-737F6E611FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40794218-EC4C-45FB-9870-737F6E611FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40794218-EC4C-45FB-9870-737F6E611FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8121846D-923E-4BB0-8647-30DA753D156E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8121846D-923E-4BB0-8647-30DA753D156E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8121846D-923E-4BB0-8647-30DA753D156E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8121846D-923E-4BB0-8647-30DA753D156E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EA2D7C-A2D2-42F0-A447-966AFFD19E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EA2D7C-A2D2-42F0-A447-966AFFD19E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EA2D7C-A2D2-42F0-A447-966AFFD19E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EA2D7C-A2D2-42F0-A447-966AFFD19E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97ECBE1C-03EF-461D-A389-312C729A7EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ECBE1C-03EF-461D-A389-312C729A7EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ECBE1C-03EF-461D-A389-312C729A7EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ECBE1C-03EF-461D-A389-312C729A7EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C8E765-A5DE-435A-98C5-456442C84C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C8E765-A5DE-435A-98C5-456442C84C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C8E765-A5DE-435A-98C5-456442C84C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C8E765-A5DE-435A-98C5-456442C84C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AB7859F-7C79-42BF-8AF2-19E204D3DD77}
+	EndGlobalSection
+EndGlobal
