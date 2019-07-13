@@ -57,3 +57,4 @@ S:\Projects\JankVRTest\JankVRTest\obj\Debug\JankVRTest.pdb
 S:\Projects\JankVRTest\JankVRTest\obj\Debug\JankVRTest.csprojAssemblyReference.cache
 S:\Projects\JankVRTest\JankVRTest\bin\Debug\System.Numerics.Vectors.dll
 S:\Projects\JankVRTest\JankVRTest\bin\Debug\System.Numerics.Vectors.xml
+S:\Projects\JankVRTest\JankVRTest\bin\Debug\VRE.Vridge.API.Client.pdb

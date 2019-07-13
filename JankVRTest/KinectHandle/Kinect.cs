@@ -123,9 +123,10 @@ namespace JankVRTest.KinectHandle
                 {
                     if (skel.TrackingState == SkeletonTrackingState.Tracked)
                     {
-                        MainWindow.VridgeConnection.controllers[0].posX = skel.Joints[JointType.HandLeft].Position.X;
-                        MainWindow.VridgeConnection.controllers[0].posY = skel.Joints[JointType.HandLeft].Position.Y;
-                        MainWindow.VridgeConnection.controllers[0].posZ = skel.Joints[JointType.HandLeft].Position.Z;
+                        var controller = MainWindow.VridgeConnection.controllers[0];
+                        controller.posX = skel.Joints[JointType.HandLeft].Position.X;
+                        controller.posY = skel.Joints[JointType.HandLeft].Position.Y;
+                        controller.posZ = skel.Joints[JointType.HandLeft].Position.Z;
 
                         MainWindow.VridgeConnection.controllers[1].posX = skel.Joints[JointType.HandRight].Position.X;
                         MainWindow.VridgeConnection.controllers[1].posY = skel.Joints[JointType.HandRight].Position.Y;

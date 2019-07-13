@@ -12,8 +12,10 @@ namespace JankVRTest
     using System.Windows;
     using System.Windows.Media;
     using System.Windows.Media.Imaging;
+    using System.Windows.Threading;
     using JankVRTest.KinectHandle;
     using JankVRTest.VridgeHandle;
+    using Joycon4CS;
     using Microsoft.Kinect;
     using VRE.Vridge.API.Client.Messages.BasicTypes;
 
@@ -25,10 +27,12 @@ namespace JankVRTest
 
 
         public static KinectSensor sensor;
-        
+
         private Kinect kinect = new Kinect();
         public static SkeletonView skeletonView = new SkeletonView();
         private static VridgeConnection vridgeConnection = new VridgeConnection();
+
+
 
         internal static VridgeConnection VridgeConnection { get => vridgeConnection; set => vridgeConnection = value; }
 
@@ -56,7 +60,11 @@ namespace JankVRTest
 
             Image.Source = skeletonView.colorBitmap;
             Image2.Source = skeletonView.imageSource;
+
+
+
         }
+
 
         /// <summary>
         /// Execute shutdown tasks
@@ -66,15 +74,16 @@ namespace JankVRTest
         private void WindowClosing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             kinect.Disconnect();
+            
         }
 
- 
 
-        
 
-        
 
-        
+
+
+
+
         private void CheckBoxSeatedModeChanged(object sender, RoutedEventArgs e)
         {
             if (null != sensor)
@@ -100,13 +109,15 @@ namespace JankVRTest
             {
 
             }
-            
-            
+
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             VridgeConnection.GetStatus();
         }
+
+
     }
 }
